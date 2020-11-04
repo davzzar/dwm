@@ -37,8 +37,8 @@ static const char col_wallpaper_bg[] = "#20241d";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeNorm] = { col_gruvbox_bg3, col_gruvbox_bg0,  col_gruvbox_aqua },
+	[SchemeSel] = { col_gruvbox_bg4, col_gruvbox_bg0,  col_gruvbox_orange },
 };
 
 /* tagging */
